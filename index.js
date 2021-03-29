@@ -1,52 +1,3 @@
-var args = [{
-        firstname: "Abhinav",
-        lastname: "Tiwari",
-        mobile: "913145204"
-    }, {
-        firstname: "Nihar",
-        lastname: "Gupta",
-        mobile: "9752154909"
-    }, {
-        firstname: "Rashid",
-        lastname: "Ali",
-        mobile: "912930193"
-    }, {
-        firstname: "Neha",
-        lastname: "Shrivastava",
-        mobile: "8371910282"
-    },
-    {
-        firstname: "Rishabh",
-        lastname: "Parsediya",
-        mobile: "7987567233",
-    },
-    {
-        firstname: "Abhinav",
-        lastname: "Tiwari",
-        mobile: "913145204"
-    },
-    {
-        firstname: "Nihar",
-        lastname: "Gupta",
-        mobile: "9752154909"
-    },
-    {
-        firstname: "Rashid",
-        lastname: "Ali",
-        mobile: "912930193"
-    },
-    {
-        firstname: "Neha",
-        lastname: "Shrivastava",
-        mobile: "8371910282"
-    },
-    {
-        firstname: "Rishabh",
-        lastname: "Parsediya",
-        mobile: "7987567233"
-    }
-];
-
 function addData() {
 
     var f = document.getElementById("fname").value;
@@ -90,7 +41,7 @@ function deleteMethod(index) {
 
     var index, table = document.getElementById('myTable');
 
-    for (var i = 0; i < table.rows.length; i++) {
+    for (var i = 1; i < table.rows.length; i++) {
         table.rows[i].cells[4].onclick = function() {
 
             index = this.parentElement.rowIndex;
